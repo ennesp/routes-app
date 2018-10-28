@@ -1,4 +1,4 @@
-React App that allow users to add routes
+React App that allows users to add driving routes
 
 ## Instructions:
 
@@ -7,6 +7,6 @@ npm install
 npm start
 ```
 
-#### App URL:
+### App URL:
 
 https://drivingroutesapp.herokuapp.com/
