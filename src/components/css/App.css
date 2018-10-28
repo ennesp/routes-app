@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+}
+
+.app-container{
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+
+.form-control{
+    width: 32%;
+    margin-right: 2%;
+    height: 35px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.form-control:focus{
+    border-color: #7EBEED;
+}
+
+.btn{
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    background-color: #7EBEED;
+    color: #fff;
+    padding: 0 15px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .3s;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn.red{
+    background-color: #C35C51;
+    margin-left: 10px;
+}
+
+.btn.orange{
+    background-color: #E2AF55;
+}
+
+.btn:hover{
+    background-color: rgb(91, 156, 202);
+}
+
+.btn.red:hover{
+    background-color: #a0392e;
+}
+
+.btn.orange:hover{
+    background-color: rgb(190, 136, 42);
+}
+
+.route-list{
+    margin: 50px 0;
+}
+
+.route-list .route-title{
+    min-width: 200px;
+    padding: 0 10px;
+}
+
+.route-info{
+    margin-top: 20px;
+}
+
+.route-detail .route-title{
+    margin: 30px 0;
+}
+
+.error{
+    color: #a0392e;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px){
+    .route-list .route-title{
+        min-width: 0;
+    }
+}
